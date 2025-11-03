@@ -6,16 +6,12 @@
 /*   By: mteriier <mteriier@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/03 16:33:58 by mteriier          #+#    #+#             */
-/*   Updated: 2025/11/03 16:43:56 by mteriier         ###   ########lyon.fr   */
+/*   Updated: 2025/11/03 21:52:30 by mteriier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*#include <unistd.h>
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-*/
+void	ft_putchar(char c);
+
 int	main(int argc, char *argv[])
 {
 	int	i;

@@ -6,11 +6,11 @@
 /*   By: mteriier <mteriier@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/03 14:23:49 by mteriier          #+#    #+#             */
-/*   Updated: 2025/11/03 14:33:09 by mteriier         ###   ########lyon.fr   */
+/*   Updated: 2025/11/03 20:46:33 by mteriier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+void	ft_putchar(char c);
 
 void	ft_print_numbers(void)
 {
@@ -23,3 +23,8 @@ void	ft_print_numbers(void)
 		i++;
 	}
 }
+/*
+int	main(void)
+{
+	ft_print_numbers();
+}*/

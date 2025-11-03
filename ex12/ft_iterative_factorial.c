@@ -6,7 +6,7 @@
 /*   By: mteriier <mteriier@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/03 14:58:46 by mteriier          #+#    #+#             */
-/*   Updated: 2025/11/03 15:08:14 by mteriier         ###   ########lyon.fr   */
+/*   Updated: 2025/11/03 21:30:23 by mteriier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,12 +30,9 @@ int	ft_iterative_factorial(int nb)
 }
 /*
 #include <stdio.h>
-int	main(void)
+#include <stdlib.h>
+int	main(int argc, char *argv[])
 {
-	int	test;
-
-	test = 3;
-	printf("%d\n", ft_iterative_factorial(3));
-	printf("%d\n", ft_iterative_factorial(0));
-	printf("%d\n", ft_iterative_factorial(-23));
+	if (argc > 1)
+		printf("%d\n", ft_iterative_factorial(atoi(argv[1])));
 }*/

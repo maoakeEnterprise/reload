@@ -6,16 +6,12 @@
 /*   By: mteriier <mteriier@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/03 14:35:09 by mteriier          #+#    #+#             */
-/*   Updated: 2025/11/03 14:42:28 by mteriier         ###   ########lyon.fr   */
+/*   Updated: 2025/11/03 21:01:05 by mteriier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*#include <unistd.h>
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-*/
+void	ft_putchar(char c);
+
 void	ft_is_negative(int n)
 {
 	if (n >= 0)
@@ -28,9 +24,11 @@ void	ft_is_negative(int n)
 	}
 }
 /*
-int	main(void)
+#include <stdlib.h>
+int	main(int argc, char *argv[])
 {
-	ft_is_negative(43);
-	ft_is_negative(0);
-	ft_is_negative(-9);
+	if (argc > 1)
+	{
+		ft_is_negative(atoi(argv[1]));
+	}
 }*/

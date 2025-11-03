@@ -1,30 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mteriier <mteriier@student.42lyon.fr>      +#+  +:+       +#+        */
+/*   By: mteriier </var/spool/mail/mteriier>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/03 14:12:09 by mteriier          #+#    #+#             */
-/*   Updated: 2025/11/03 20:46:55 by mteriier         ###   ########.fr       */
+/*   Created: 2025/11/03 20:31:06 by mteriier          #+#    #+#             */
+/*   Updated: 2025/11/03 20:32:10 by mteriier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
+#include <unistd.h>
 
-void	ft_print_alphabet(void)
+void	ft_putchar(char c)
 {
-	int	i;
-
-	i = 'a';
-	while (i <= 'z')
-	{
-		ft_putchar(i);
-		i++;
-	}
+	write(1, &c, 1);
 }
-/*
-int	main(void)
-{
-	ft_print_alphabet();
-}*/
